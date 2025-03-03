@@ -35,6 +35,14 @@ h3 {
 .header__primera-parte {
     max-width: 320px;
     min-width: 220px;
+    position: relative;
+    margin-right: 70px;
+}
+
+.header__primera-parte--circulo {
+    position: absolute;
+    bottom: -30px;
+    right: -70px;
 }
 
 .header__segunda-parte {
@@ -94,6 +102,16 @@ h3 {
         text-align: center;
     }
 
+    .header__primera-parte  {
+        margin: 0;
+    }
+
+    .header__primera-parte--circulo {
+        width: 100px;
+        top: -20px;
+        right: 10px;
+    }
+
     .header__primera-parte img {
         max-width: 70%;
     }
@@ -132,6 +150,7 @@ h3 {
 .aside  ul {
     padding: 0;
     list-style: none;
+    margin-bottom: 0;
 }
 
 .aside ul > li {
