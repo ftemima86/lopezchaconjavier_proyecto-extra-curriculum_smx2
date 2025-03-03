@@ -191,8 +191,12 @@ h3 {
     margin-top: 0;
 }
 
+.main h3 {
+    margin-bottom: 0;
+}
+
 .main__section_contenido--dos {
-    margin: 50px 0;
+    margin: 30px 0;
 }
 
 .primera-secion {
@@ -202,7 +206,7 @@ h3 {
 .main__section_contenido--div {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
 }
 
 .main__section_contenido--div p {
